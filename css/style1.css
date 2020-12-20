@@ -1,0 +1,17 @@
+.navs{
+   height: 10vh;
+    margin-bottom: 15px ;
+}
+.left{
+    height: 70vh;
+}
+.center{
+    height: 70vh;
+}
+.right{
+    height: 70vh;
+}
+.bottom{
+    height: 20vh;
+    margin-top: 15px;
+}

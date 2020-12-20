@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    margin-top: 230px;
+    margin-left:290px;
+    margin-right:290px;
+    min-height: 300px;
+    width: auto;
+    background-color: white;
+    padding: 1em;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: 600;
+    color: gray;
+}
+.logo span{
+    color: black;
+}
+
+.search{
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgray;
+    padding: 0;
+    width: 100%;
+}
+
+.search-bar{
+    margin-right: 0;
+    width: 79%;
+    border-width: 0;
+    height: 30px;
+}
+.search-btn{
+    margin-left:0;
+    width: 20%;
+    border-width: 0;
+    background-color: lightgray;
+    height: 30px;
+    color: black;
+}
+
+.topnav{
+}
+.topnav li:first-child {
+    margin-left: 0;
+    background-color: red;
+    padding: 5px 7px;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: darkred;
+}
+
+.topnav li:first-child:hover{
+    color: yellow;
+    border-color: red;
+    background-color: #A52A2A;
+    cursor:pointer;
+}
+
+.topnav li{
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.topnav li a{
+    color: black;
+    text-decoration: underline;
+}
+.topnav li a:hover{
+    color:red;
+}
+
+.menu-main{
+    margin-top: 25px;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    margin-left: 15px;
+}
+
+.menu-main li{
+    margin: 0;
+    text-decoration: none;
+    padding: 5px 8px;
+    background-color: gray;
+    border-right-style: solid;
+    border-right-width: 0.1px;
+    border-right-color: lightgray;
+}
+
+.menu-main li:last-child{
+    border-right: none;
+}
+
+
+.menu-main li:hover{
+    background-color: #0f6674;
+    cursor: pointer;
+}
+
+.menu-main li a{
+    color: white;
+}
+.menu-main li a:hover{
+    text-decoration: none;
+}
+
+.menu-main .drop ul{
+    display: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.menu-main .drop:hover ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 264px;
+    top: 378px;
+    width: 180px;
+}
+
+/*  Навбар закончен  */
+
+.topvideo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topvideo .title{
+    font-size: 18px ;
+    background-color: orange;
+}
+
+.topvideo .rek{
+    font-size: 10px;
+    color: grey;
+}
+.topvideo .info .author{
+    font-size: 12px;
+}
+.topvideo .info .prosm{
+    font-size: 12px;
+    color: grey;
+    margin-left: 4px;
+}
+.topvideo .description{
+    font-size: 14px;
+}
+.topvideo .rightside{
+    margin-left: 5px;
+}
+
+.miniData {
+    display: flex;
+    margin-top:30px;
+}
+.miniData .title{
+    font-size: 12px;
+    font-weight: 700;
+}
+.miniData .views{
+    font-size: 10px;
+}
+.miniData .author{
+    font-size: 10px;
+}
+.miniData .img{
+    width: 250px;
+    margin-right: 5px;
+}
+.recommended{
+    margin-top: 30px;
+    font-size: 13px;
+}
+.recommended a{
+    color: black;
+    text-decoration: underline;
+}
+
+.recommended a:hover{
+    color: red;
+    transition: 0.1s;
+}
+
+.top{
+    display: flex;
+    margin-top: 10px;
+}
+
+.top .days{
+    display: flex;
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.top .days li {
+    color: black;
+    background-color: lightgray;
+    padding: 2px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.days li:hover{
+    color: darkred;
+}
+
+.secondTitle{
+    color: blue;
+}
+.col-3{
+    padding-right: 20px;
+    
+}
+.shadow{
+    text-decoration: underline;
+    color: #6F6A6A;
+}
+.text0{
+    width: 100%;
+    color: #5a6268;
+    text-decoration: underline;
+    display: flex;
+}
+.text1{
+    width: 100%;
+    display: flex;
+}
+
+.title{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.views{
+    font-size: 10px;
+}
+.author{
+    font-size: 10px;
+}

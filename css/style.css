@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.content{
+    height: 80vh;
+}
+.sidebar{
+    margin-right: 15px;
+    height: 80vh;
+}
+.footer{
+    margin-top:15px;
+    height: 20vh;
+}

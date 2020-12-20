@@ -1,0 +1,22 @@
+.block1{
+    font: 20px Montserrat, sans-serif;
+    background-color: #1abc9c;
+    padding:5em;
+}
+.block2{
+    font: 20px Montserrat, sans-serif;
+    background-color: #474e5d;
+    padding: 5em 2em;
+
+}
+
+.btn1{
+    font-size: 20px;
+}
+.block3{
+    font: 20px Montserrat, sans-serif;
+    padding: 5em 2em ;
+}
+.heading1{
+    color:inherit;
+}
